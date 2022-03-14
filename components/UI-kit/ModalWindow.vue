@@ -3,7 +3,7 @@
         <div class="modal">
             <div class="modal-close" @click="closeModal">&#10006;</div>
             <slot name="title">
-                <h3 class="modal-title text text--24">Exchange</h3>
+                <h3 class="modal-title text text--24">Exchang</h3>
             </slot>
             <slot name="body">
                 <div class="modal-content text text--14">

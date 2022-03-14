@@ -1,0 +1,10 @@
+@mixin svg-color($default-color, $hover-color: $default-color) {
+    >svg {
+      fill: $default-color;
+      transition: all 0.3s ease;
+    }
+  
+    &:hover>svg {
+      fill: $hover-color;
+    }
+  }

@@ -1,0 +1,89 @@
+@import './colors.scss';
+@import './fonts.scss';
+@import './mixin.scss';
+
+
+body {
+  * {
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+}
+
+.text {
+    font-family: "Blinker", sans-serif;
+    color: $total-white;
+    line-height: 24px;
+  
+    &--24 {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 500;
+    }
+    &--20 {
+      font-size: 20px;
+      line-height: 32px;
+      font-weight: 500;
+    }
+    &--16 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+    &--14 {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+    }
+    &--12 {
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 400;
+    }
+  }
+
+.text-bold {
+    font-family: "Blinker-Bold", sans-serif;
+    color: $total-white;
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 20px;
+}
+  
+  .ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  hr {
+    border: 0.5px solid $gray;
+}
+
+select {
+    
+    outline: none;
+    padding: 5px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    $gray;
+ }
+ :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    $gray;
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    $gray;
+ }
+ :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    $gray;
+ }
